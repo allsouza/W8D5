@@ -1,0 +1,32 @@
+/* PHASE 5: Cats */
+.content-header {
+    height: 200px;
+    width: 100%;
+    background-image: url(/home/andre/Desktop/AppAcademy/classwork/week8/W8D5/css_friends5/images/cats.jpg);
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    position: relative;
+}
+
+.content-header span {
+    display: flex;
+    margin: auto;
+    align-self: flex-end;
+    position: absolute;
+    bottom: 20px;
+    left: 28%; 
+    color: white;
+    font-size: 40px;
+    text-shadow: black 0 0 10px;
+}
+
+button {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px; 
+    /* height: 50px; */
+    position: absolute;
+    bottom: 20px; 
+    right: 20px; 
+}
